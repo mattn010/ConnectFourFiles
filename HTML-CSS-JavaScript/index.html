@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+	</head>
+
+	<body onload="create()">
+
+		
+		<div id="board">
+
+			<div id ="left"></div>
+			<div id ="middle">
+				<div id="midtop"></div>
+				<div id="main">
+					<div style="height: 50px; width:50px; background-color: black">
+					</div>
+				</div>
+				<div id="midbottom"></div>
+			</div>
+			<div id ="right"></div>			
+			
+		</div>
+
+		<div>&nbsp;</div>
+
+		<div id="buttons">
+			<button id="ba" class="colButton" type='button' onclick="add(0)">A</button>
+			<button id="bb" class="colButton" type='button' onclick="add(1)">B</button>
+			<button id="bc" class="colButton" type='button' onclick="add(2)">C</button>
+			<button id="bd" class="colButton" type='button' onclick="add(3)">D</button>
+			<button id="be" class="colButton" type='button' onclick="add(4)">E</button>
+			<button id="bf" class="colButton" type='button' onclick="add(5)">F</button>
+			<button id="bg" class="colButton" type='button' onclick="add(6)">G</button>
+			<button id="bh" class="colButton" type='button' onclick="add(7)">H</button>
+			<button id="bi" class="colButton" type='button' onclick="add(8)">I</button>
+			<button id="bj" class="colButton" type='button' onclick="add(9)">J</button>
+		</div>
+
+		<div>
+			<button id="reset" type='button' onclick="reset()">RESET</button>
+		</div>
+		<!--<button type="button" onclick="create()">Try it</button>-->
+
+
+
+	</body>
+
+</html> 
